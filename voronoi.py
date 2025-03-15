@@ -154,7 +154,7 @@ if __name__ == "__main__":
     hy = [p[1] for p in hull] + [hull[0][1]]
     plt.plot(hx, hy)  # Highlight hull boundary with default style
 
-    plt.title("Farthest-Voronoi diagram") 
+    plt.title("Farthest-Voronoi diagram")
     # Set aspect ratio
-    plt.gca().set_aspect("equal", adjustable="datalim")  
+    plt.gca().set_aspect("equal", adjustable="datalim")
     plt.show()
